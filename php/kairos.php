@@ -3,7 +3,7 @@
 $queryUrl = "http://api.kairos.com/enroll";
 $imageObject = '{"image":"YOUR_IMAGE_URL"}';
 $id="";
-$galler="";
+$gallery="";
 $APP_ID = "63e167c7";
 $APP_KEY = "cccf0f5ffbd82f6573d1ba8f80288e74";
 $request = curl_init($queryUrl);
@@ -22,3 +22,4 @@ $response = curl_exec($request);
 echo $response;
 // close the session
 curl_close($request);
+?>
